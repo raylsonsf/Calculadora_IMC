@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #25ce4f;
+    color: #0f0f0f;
+    text-align: center;
+    padding: 1%;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    background-color: #25ce4f;
+    color: #0a0a0a;
+
+}
+
+#Calculadora {
+    background-color: #cfc3c3;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(12, 12, 12, 0.1);
+    justify-content: center;
+    
+}
+
+main{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+/*  */
+
+
+#Calculadora {
+    background-color: #262626;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(12, 12, 12, 0.1);
+    justify-content: center;
+    
+}
+/* Estilização dos botões de gênero */
+
+#btnMulher {
+    background-color: rgb(187, 64, 85);
+    color: #f8fafc;
+    border-radius: 5px;
+    padding: auto;
+    cursor: pointer;
+}
+
+#btnHomem {
+    background-color: rgb(49, 40, 170);
+    color: #f8fafc;
+    border-radius: 5px;
+    padding: auto;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+.calc {
+    gap: 10px;
+    color: #ffffff;
+    padding: auto;
+    margin: 100px ;
+    
+}
+#btnMulher, #btnHomem{
+    justify-content: center;
+}
+.genero,
+.calc {
+    
+    margin: 0;
+    margin-top: 1em;
+    
+}
+
+#figura {
+    width: 100px;
+    justify-content: center;
+    margin-top: 0 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+button#calcular-button {
+    background-color: #25ce4fd2;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.texto, .escalaIMC {
+    text-align: justify;
+    border-radius: 3px;
+    padding: 30px;
+    margin: 0 0;
+    box-shadow: 0 2px 4px rgba(12, 12, 12, 0.1);
+}
