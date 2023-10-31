@@ -1,4 +1,4 @@
-
+ 
 
 function changeImage(gender) {
     const figuraElement = document.getElementById("figura");
@@ -42,5 +42,5 @@ function calcular() {
     } else {
         mensagem = "<span> Obesidade III (mórbida) </span><br> Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente.";
     }
-    resultadoElement.innerHTML = mensagem + ": " + result.toFixed(2);
+    resultadoElement.innerHTML = "Seu IMC é:" result.toFixed(2) + mensagem;
 }
